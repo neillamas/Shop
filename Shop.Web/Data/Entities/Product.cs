@@ -12,7 +12,7 @@ namespace Shop.Web.Data.Entities
         public int Id { get; set; }
         public string Name { get; set; }
 
-        //[Column(TypeName ="decimal(18,2)")]
+        [Column(TypeName ="decimal(18,2)")]
         [DisplayFormat(DataFormatString ="0:C2",ApplyFormatInEditMode = false)]
         public decimal Price { get; set; }
         
